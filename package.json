@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --ignore-watch node_modules --transpile-only --respawn src/server.ts"
+    "start": "ts-node-dev --ignore-watch node_modules --transpile-only --respawn src/server.ts",
+    "prod": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.0"
+    "mongoose": "^5.10.0",
+    "ts-node": "^9.0.0"
   }
 }
